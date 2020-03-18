@@ -1,6 +1,6 @@
 # React Native Coronavirus Statistcs
 
-<!-- ![article-cover](https://user-images.githubusercontent.com/619186/64933790-1fc27680-d81d-11e9-8077-64a1066b7c17.png) -->
+![article-cover](https://raw.githubusercontent.com/ozcanzaferayan/react-native-corona-virus-stats/master/screenshots/screenshot.png?token=AAKD64ZUPHHITCPBDVIVBJS6OG4OA)
 
 ### How to run
 
