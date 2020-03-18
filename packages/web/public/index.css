@@ -2,8 +2,8 @@ html,
 body,
 #root,
 #root > div {
-  width: 10000px;
-  height: 10000px;
+  width: 100%;
+  height: 100%;
 }
 
 body {

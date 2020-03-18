@@ -1,4 +1,4 @@
-import { MainNumbers, ActiveCases, ClosedCases, ActiveCasesGraphData, ClosedCasesGraphData, TotalCasesGraphData, TotalDeathsGraphData, CountryData } from "./Types";
+import { MainNumbers, ActiveCases, ClosedCases, ActiveCasesGraphData, ClosedCasesGraphData, TotalCasesGraphData, TotalDeathsGraphData, CountryData } from "./types/Types";
 
 export const getMainNumbers = ($: CheerioSelector): MainNumbers => {
   const mainValues = $('.maincounter-number');
