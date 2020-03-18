@@ -7,6 +7,7 @@ import {
   Text,
   FlatList,
   View,
+  Platform,
 } from 'react-native';
 import Svg, { SvgUri, Circle, Rect, Image, Defs, ClipPath, Path, G, RadialGradient, Stop, Ellipse, Polygon, Text as Textt } from 'react-native-svg';
 import * as cheerio from 'cheerio';
@@ -32,7 +33,7 @@ export function App() {
   }, []);
 
   async function fetchData() {
-    fetch(urlCors + urlWorldOMeter)
+    fetch(Platform.OS === 'web' ? urlCors + urlWorldOMeter: urlWorldOMeter)
       .then((response) => response.text())
       .then((data) => {
         const html = cheerio.load(data);
